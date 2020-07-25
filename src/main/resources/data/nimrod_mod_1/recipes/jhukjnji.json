@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nimrod_mod_1:jhukjnji_block"
+    }
+  ],
+  "result": {
+    "item": "nimrod_mod_1:jhukjnji",
+    "count": 9
+  }
+}

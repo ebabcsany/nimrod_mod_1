@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nimrod_mod_1:plmk_block"
+    }
+  ],
+  "result": {
+    "item": "nimrod_mod_1:plmk",
+    "count": 9
+  }
+}

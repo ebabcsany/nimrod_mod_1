@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "####",
+    "####",
+    "####",
+    "####"
+  ],
+  "key": {
+    "#": {
+      "item": "nimrod_mod_1:plmk"
+    }
+  },
+  "result": {
+    "item": "nimrod_mod_1:plmk_block",
+    "count": 1
+  }
+}

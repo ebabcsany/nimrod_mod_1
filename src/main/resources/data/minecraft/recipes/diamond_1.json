@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CVC",
+    "VBV",
+    "C#C"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dirt"
+    },
+    "C": {
+      "item": "minecraft:stone"
+    },
+    "V": {
+      "item": "minecraft:lava_bucket"
+    },
+    "B": {
+      "item": "minecraft:netherrack"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 1
+  }
+}

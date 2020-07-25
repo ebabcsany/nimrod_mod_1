@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "nimrod_mod_1:item/diamond_helmet"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#MSN"
+  ],
+  "key": {
+    "#": {
+      "item": "ervin_mod_1:sriunk"
+    },
+    "S": {
+      "item": "ervin_mod_1:sriunk_ore"
+    },
+    "N": {
+      "item": "nimrod_mod_1:wueuzeuzezhszws"
+    },
+    "M": {
+      "item": "ervin_mod_1:terat_chestplate"
+    }
+  },
+  "result": {
+    "item": "nimrod_mod_1:tetetrttwfgedretetredredterrferrt",
+    "count": 1
+  }
+}

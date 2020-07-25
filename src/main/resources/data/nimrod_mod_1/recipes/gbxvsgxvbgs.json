@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "nimrod_mod_1:tetetrttwfgedretetredredterrferrt"
+    }
+  },
+  "result": {
+    "item": "nimrod_mod_1:gbxvsgxvbgs",
+    "count": 1
+  }
+}

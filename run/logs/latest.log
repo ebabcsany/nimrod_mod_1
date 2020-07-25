@@ -1,0 +1,255 @@
+[24júl.2020 09:55:38.971] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200122.131323, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.1.9, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\ervin_1nmnhvl\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[24júl.2020 09:55:38.980] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0+68+master.79f13f7 starting: java version 1.8.0_51 by Oracle Corporation
+[24júl.2020 09:55:39.451] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[24júl.2020 09:55:42.713] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\ervin_1nmnhvl\.gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[24júl.2020 09:55:48.449] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[24júl.2020 09:56:08.965] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[24júl.2020 09:56:13.109] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.1.9, for MC 1.15.2 with MCP 20200122.131323
+[24júl.2020 09:56:13.109] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.1.9 Initialized
+[24júl.2020 09:56:14.043] [Render thread/INFO] [com.babcsany.minecraft.nimrod_mod_1.Nimrod_mod_1/]: HELLO from Register Block
+[24júl.2020 09:56:14.220] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nimrod_mod_1:ruuuururezrzwr
+[24júl.2020 09:56:21.962] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[24júl.2020 09:56:22.223] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[24júl.2020 09:56:30.616] [modloading-worker-1/INFO] [com.babcsany.minecraft.nimrod_mod_1.Nimrod_mod_1/]: HELLO FROM PREINIT
+[24júl.2020 09:56:30.617] [modloading-worker-1/INFO] [com.babcsany.minecraft.nimrod_mod_1.Nimrod_mod_1/]: DIRT BLOCK >> minecraft:dirt
+[24júl.2020 09:56:31.103] [modloading-worker-0/INFO] [com.babcsany.minecraft.nimrod_mod_1.Nimrod_mod_1/]: Got game settings net.minecraft.client.GameSettings@6ff13e73
+[24júl.2020 09:56:31.116] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[24júl.2020 09:56:32.353] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 31.1.9 Target: 31.2.0
+[24júl.2020 09:56:44.869] [Server-Worker-2/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'nimrod_mod_1:item/template_spawn_egg' referenced from: nimrod_mod_1:ruuuururezrzwr_spawn_egg#inventory: java.io.FileNotFoundException: nimrod_mod_1:models/item/template_spawn_egg.json
+[24júl.2020 09:56:44.873] [Server-Worker-2/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'nimrod_mod_1:diamond_pickaxe#inventory' referenced from: nimrod_mod_1:diamond_pickaxe#inventory: java.io.FileNotFoundException: nimrod_mod_1:models/item/diamond_pickaxe.json
+[24júl.2020 09:56:44.878] [Server-Worker-2/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'nimrod_mod_1:block/zzzzztttttttrug97978776676' referenced from: nimrod_mod_1:zzzzztttttttrug97978776676#inventory: java.io.FileNotFoundException: nimrod_mod_1:models/block/zzzzztttttttrug97978776676.json
+[24júl.2020 09:56:44.882] [Server-Worker-2/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'nimrod_mod_1:diamond_boots#inventory' referenced from: nimrod_mod_1:diamond_boots#inventory: java.io.FileNotFoundException: nimrod_mod_1:models/item/diamond_boots.json
+[24júl.2020 09:56:45.203] [Server-Worker-2/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: #missingno in nimrod_mod_1:item/ruuuururezrzwr_spawn_egg
+[24júl.2020 09:56:45.203] [Server-Worker-2/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: #missingno in nimrod_mod_1:item/zzzzztttttttrug97978776676
+[24júl.2020 09:56:48.796] [Server-Worker-2/WARN] [net.minecraft.client.renderer.texture.AtlasTexture/]: Texture nimrod_mod_1:block/jhukjnji_block with size 1000x1000 limits mip level from 4 to 3
+[24júl.2020 09:56:48.797] [Server-Worker-2/WARN] [net.minecraft.client.renderer.texture.AtlasTexture/]: Texture nimrod_mod_1:block/zwzhsgdgsf with size 1x1 limits mip level from 3 to 0
+[24júl.2020 09:56:51.803] [modloading-worker-3/INFO] [com.babcsany.minecraft.nimrod_mod_1.Nimrod_mod_1/]: Hello world from the MDK
+[24júl.2020 09:56:51.803] [modloading-worker-3/INFO] [com.babcsany.minecraft.nimrod_mod_1.Nimrod_mod_1/]: Got IMC [Hello world]
+[24júl.2020 09:56:53.197] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[24júl.2020 09:56:53.199] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[24júl.2020 09:56:53.483] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[24júl.2020 09:56:54.590] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x4 minecraft:textures/atlas/signs.png-atlas
+[24júl.2020 09:56:54.597] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[24júl.2020 09:56:54.642] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[24júl.2020 09:56:54.687] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[24júl.2020 09:56:54.698] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[24júl.2020 09:56:54.715] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[24júl.2020 09:56:56.962] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[24júl.2020 09:56:57.004] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[24júl.2020 09:56:57.014] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[24júl.2020 09:56:58.352] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[24júl.2020 09:57:01.972] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[24júl.2020 09:57:01.974] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[24júl.2020 09:57:01.975] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[24júl.2020 09:57:01.977] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[24júl.2020 09:57:01.980] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[24júl.2020 09:57:03.789] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
+[24júl.2020 09:57:03.790] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[24júl.2020 09:57:04.248] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[24júl.2020 09:57:04.351] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Found a missing id from the world nimrod_mod_1:jhukjnji
+[24júl.2020 09:57:04.474] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Object did not get ID it asked for. Name: nimrod_mod_1:zrfjdoledfjh Expected: 896 Got: 893
+[24júl.2020 09:57:05.209] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.1.9_mapped_snapshot_20200427-1.15.1-recomp.jar, main
+[24júl.2020 09:57:09.141] [Server-Worker-6/ERROR] [net.minecraft.client.resources.JsonReloadListener/]: Couldn't parse data file nimrod_mod_1:entities/qwertrttt from nimrod_mod_1:loot_tables/entities/qwertrttt.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:368) ~[?:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:407) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:51) [?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:22) [?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$0(ReloadListener.java:12) [?:?]
+	at net.minecraft.client.resources.ReloadListener$$Lambda$2676/1046906691.get(Unknown Source) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1582) [?:1.8.0_51]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1574) [?:1.8.0_51]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_51]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_51]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1689) [?:1.8.0_51]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_51]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1393) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:549) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:425) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:716) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:366) ~[?:?]
+	... 11 more
+[24júl.2020 09:57:09.814] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe nimrod_mod_1:tetetrttwfgedretetredredterrferrt
+com.google.gson.JsonSyntaxException: Unknown item 'ervin_mod_1:sriunk'
+	at net.minecraft.item.crafting.Ingredient.lambda$deserializeItemList$12(Ingredient.java:214) ~[?:?]
+	at net.minecraft.item.crafting.Ingredient$$Lambda$3683/866339453.get(Unknown Source) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_51]
+	at net.minecraft.item.crafting.Ingredient.deserializeItemList(Ingredient.java:213) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[?:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[?:?]
+	at net.minecraft.item.crafting.Ingredient.deserialize(Ingredient.java:187) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.deserializeKey(ShapedRecipe.java:276) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.read(ShapedRecipe.java:300) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.read(ShapedRecipe.java:296) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.deserializeRecipe(RecipeManager.java:137) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:60) [?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) [?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) [?:?]
+	at net.minecraft.client.resources.ReloadListener$$Lambda$2678/1875542814.accept(Unknown Source) [?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:656) [?:1.8.0_51]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632) [?:1.8.0_51]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442) [?:1.8.0_51]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) [?:?]
+	at net.minecraft.resources.AsyncReloader$$Lambda$2783/1551379289.run(Unknown Source) [?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:757) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:141) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOneInternal(MinecraftServer.java:740) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:734) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:123) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1577) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:455) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:77) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:99) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:636) [?:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+[24júl.2020 09:57:09.903] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[24júl.2020 09:57:13.987] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
+[24júl.2020 09:57:15.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[24júl.2020 09:57:17.473] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[24júl.2020 09:57:17.473] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[24júl.2020 09:57:17.474] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[24júl.2020 09:57:17.474] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[24júl.2020 09:57:17.474] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[24júl.2020 09:57:17.925] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[24júl.2020 09:57:18.328] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 46%
+[24júl.2020 09:57:19.382] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 4118 ms
+[24júl.2020 09:57:19.464] [Server thread/INFO] [com.babcsany.minecraft.nimrod_mod_1.Nimrod_mod_1/]: HELLO from server starting
+[24júl.2020 09:57:20.219] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[24júl.2020 09:57:20.222] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[24júl.2020 09:57:20.228] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 7, from 10
+[24júl.2020 09:57:26.382] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[24júl.2020 09:57:26.634] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:fd7266a7] logged in with entity id 251 at (-123.72651595613218, 85.0, 204.7079806727233)
+[24júl.2020 09:57:26.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[24júl.2020 09:57:27.330] [Render thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[24júl.2020 09:57:28.015] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[24júl.2020 09:57:28.020] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[24júl.2020 09:57:28.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[24júl.2020 09:57:28.542] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 53 advancements
+[24júl.2020 09:57:30.000] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3334ms or 66 ticks behind
+[24júl.2020 09:58:19.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 1 [item.nimrod_mod_1.zrfjdoledfjh] to Dev]
+[24júl.2020 09:58:19.715] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Gave 1 [item.nimrod_mod_1.zrfjdoledfjh] to Dev
+[24júl.2020 09:58:57.578] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] [Debug]: Key bindings:
+[24júl.2020 09:58:57.578] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + A = Reload chunks
+[24júl.2020 09:58:57.579] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + B = Show hitboxes
+[24júl.2020 09:58:57.579] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + C = Copy location as /tp command, hold F3 + C to crash the game
+[24júl.2020 09:58:57.579] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + D = Clear chat
+[24júl.2020 09:58:57.580] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + F = Cycle render distance (Shift to invert)
+[24júl.2020 09:58:57.580] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + G = Show chunk boundaries
+[24júl.2020 09:58:57.580] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + H = Advanced tooltips
+[24júl.2020 09:58:57.580] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + I = Copy entity or block data to clipboard
+[24júl.2020 09:58:57.581] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + N = Cycle creative <-> spectator
+[24júl.2020 09:58:57.581] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + P = Pause on lost focus
+[24júl.2020 09:58:57.581] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + Q = Show this list
+[24júl.2020 09:58:57.581] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + T = Reload resource packs
+[24júl.2020 09:58:57.581] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + Esc = Pause without pause menu (if pausing is possible)
+[24júl.2020 09:59:09.386] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] [Debug]: Key bindings:
+[24júl.2020 09:59:09.386] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + A = Reload chunks
+[24júl.2020 09:59:09.387] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + B = Show hitboxes
+[24júl.2020 09:59:09.387] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + C = Copy location as /tp command, hold F3 + C to crash the game
+[24júl.2020 09:59:09.387] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + D = Clear chat
+[24júl.2020 09:59:09.387] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + F = Cycle render distance (Shift to invert)
+[24júl.2020 09:59:09.388] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + G = Show chunk boundaries
+[24júl.2020 09:59:09.388] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + H = Advanced tooltips
+[24júl.2020 09:59:09.388] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + I = Copy entity or block data to clipboard
+[24júl.2020 09:59:09.388] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + N = Cycle creative <-> spectator
+[24júl.2020 09:59:09.389] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + P = Pause on lost focus
+[24júl.2020 09:59:09.389] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + Q = Show this list
+[24júl.2020 09:59:09.389] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + T = Reload resource packs
+[24júl.2020 09:59:09.389] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] F3 + Esc = Pause without pause menu (if pausing is possible)
+[24júl.2020 09:59:21.454] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] [Debug]: Advanced tooltips: shown
+[24júl.2020 10:00:13.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Summoned new entity.nimrod_mod_1.ruuuururezrzwr]
+[24júl.2020 10:00:13.777] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Summoned new entity.nimrod_mod_1.ruuuururezrzwr
+[24júl.2020 10:01:01.561] [Render thread/WARN] [net.minecraft.client.renderer.texture.TextureManager/]: Failed to load texture: nimrod_mod_1:textures/models/armor/object_layer_1.png
+java.io.FileNotFoundException: nimrod_mod_1:textures/models/armor/object_layer_1.png
+	at net.minecraft.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:60) ~[?:?]
+	at net.minecraft.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:59) ~[?:?]
+	at net.minecraft.client.renderer.texture.SimpleTexture$TextureData.getTextureData(SimpleTexture.java:81) ~[?:?]
+	at net.minecraft.client.renderer.texture.SimpleTexture.getTextureData(SimpleTexture.java:56) ~[?:?]
+	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SimpleTexture.java:26) ~[?:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_230183_b_(TextureManager.java:82) [?:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:65) [?:?]
+	at net.minecraft.client.renderer.texture.TextureManager.bindTextureRaw(TextureManager.java:58) [?:?]
+	at net.minecraft.client.renderer.texture.TextureManager.bindTexture(TextureManager.java:49) [?:?]
+	at net.minecraft.client.renderer.RenderState$TextureState.lambda$new$0(RenderState.java:538) [?:?]
+	at net.minecraft.client.renderer.RenderState$TextureState$$Lambda$2406/2044888689.run(Unknown Source) [?:?]
+	at net.minecraft.client.renderer.RenderState.setupRenderState(RenderState.java:157) [?:?]
+	at net.minecraft.client.renderer.RenderType$Type$$Lambda$2991/1680784716.accept(Unknown Source) [?:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:408) [guava-21.0.jar:?]
+	at net.minecraft.client.renderer.RenderType$Type.lambda$new$0(RenderType.java:433) [?:?]
+	at net.minecraft.client.renderer.RenderType$Type$$Lambda$2460/1640383742.run(Unknown Source) [?:?]
+	at net.minecraft.client.renderer.RenderState.setupRenderState(RenderState.java:157) [?:?]
+	at net.minecraft.client.renderer.RenderType.finish(RenderType.java:209) [?:?]
+	at net.minecraft.client.renderer.IRenderTypeBuffer$Impl.finish(IRenderTypeBuffer.java:82) [?:?]
+	at net.minecraft.client.renderer.IRenderTypeBuffer$Impl.getBuffer(IRenderTypeBuffer.java:44) [?:?]
+	at net.minecraft.client.renderer.ItemRenderer.getBuffer(ItemRenderer.java:116) [?:?]
+	at net.minecraft.client.renderer.ItemRenderer.renderItem(ItemRenderer.java:105) [?:?]
+	at net.minecraft.client.renderer.ItemRenderer.renderItem(ItemRenderer.java:161) [?:?]
+	at net.minecraft.client.renderer.FirstPersonRenderer.renderItemSide(FirstPersonRenderer.java:49) [?:?]
+	at net.minecraft.client.renderer.entity.layers.HeldItemLayer.func_229135_a_(HeldItemLayer.java:49) [?:?]
+	at net.minecraft.client.renderer.entity.layers.HeldItemLayer.render(HeldItemLayer.java:35) [?:?]
+	at net.minecraft.client.renderer.entity.layers.HeldItemLayer.render(HeldItemLayer.java:17) [?:?]
+	at net.minecraft.client.renderer.entity.LivingRenderer.render(LivingRenderer.java:123) [?:?]
+	at net.minecraft.client.renderer.entity.PlayerRenderer.render(PlayerRenderer.java:62) [?:?]
+	at net.minecraft.client.renderer.entity.PlayerRenderer.render(PlayerRenderer.java:39) [?:?]
+	at net.minecraft.client.renderer.entity.EntityRendererManager.renderEntityStatic(EntityRendererManager.java:246) [?:?]
+	at net.minecraft.client.gui.screen.inventory.InventoryScreen.drawEntityOnScreen(InventoryScreen.java:136) [?:?]
+	at net.minecraft.client.gui.screen.inventory.CreativeScreen.drawGuiContainerBackgroundLayer(CreativeScreen.java:756) [?:?]
+	at net.minecraft.client.gui.screen.inventory.ContainerScreen.render(ContainerScreen.java:84) [?:?]
+	at net.minecraft.client.gui.DisplayEffectsScreen.render(DisplayEffectsScreen.java:46) [?:?]
+	at net.minecraft.client.gui.screen.inventory.CreativeScreen.render(CreativeScreen.java:621) [?:?]
+	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:359) [?:?]
+	at net.minecraft.client.renderer.GameRenderer.updateCameraAndRender(GameRenderer.java:492) [?:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:962) [?:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:559) [?:?]
+	at net.minecraft.client.main.Main.main(Main.java:177) [?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) [forge-1.15.2-31.1.9_mapped_snapshot_20200427-1.15.1-recomp.jar:?]
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider$$Lambda$420/1002041276.call(Unknown Source) [forge-1.15.2-31.1.9_mapped_snapshot_20200427-1.15.1-recomp.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0.jar:?]
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.9_mapped_snapshot_20200427-1.15.1-recomp.jar:?]
+[24júl.2020 10:01:16.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 1 [item.nimrod_mod_1.ruuuururezrzwr_spawn_egg] to Dev]
+[24júl.2020 10:01:16.443] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Gave 1 [item.nimrod_mod_1.ruuuururezrzwr_spawn_egg] to Dev
+[24júl.2020 10:20:41.207] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 78392ms or 1567 ticks behind
+[24júl.2020 10:24:30.344] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/5423, l='New World', x=-123.50, y=81.00, z=200.50]
+[24júl.2020 10:24:34.340] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/5526, l='New World', x=-123.50, y=81.00, z=200.50]
+[24júl.2020 10:24:35.105] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/5537, l='New World', x=-123.50, y=81.00, z=200.50]
+[24júl.2020 10:24:37.597] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/5589, l='New World', x=-123.50, y=81.00, z=200.50]
+[24júl.2020 10:24:43.088] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/5704, l='New World', x=-123.50, y=81.00, z=200.50]
+[24júl.2020 10:24:43.592] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/5713, l='New World', x=-123.50, y=81.00, z=200.50]
+[24júl.2020 10:24:45.090] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/5743, l='New World', x=-123.50, y=81.00, z=200.50]
+[24júl.2020 10:24:45.091] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/5744, l='New World', x=-123.50, y=81.00, z=200.50]
+[24júl.2020 10:24:45.092] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/5745, l='New World', x=-123.50, y=81.00, z=200.50]
+[24júl.2020 10:24:59.787] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/6064, l='New World', x=-123.50, y=81.00, z=200.50]
+[24júl.2020 10:25:03.784] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/6098, l='New World', x=-123.50, y=81.00, z=200.50]
+[24júl.2020 10:25:04.183] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/6104, l='New World', x=-123.50, y=81.00, z=200.50]
+[24júl.2020 10:25:04.184] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/6105, l='New World', x=-123.50, y=81.00, z=200.50]
+[24júl.2020 10:25:06.192] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/6131, l='New World', x=-123.50, y=81.00, z=200.50]
+[24júl.2020 10:25:11.792] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/6227, l='New World', x=-123.70, y=81.00, z=200.30]
+[24júl.2020 10:25:12.201] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/6233, l='New World', x=-123.70, y=81.00, z=200.70]
+[24júl.2020 10:28:42.866] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[24júl.2020 10:28:42.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[24júl.2020 10:28:43.638] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[24júl.2020 10:28:43.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[24júl.2020 10:28:43.654] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[24júl.2020 10:28:43.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[24júl.2020 10:28:43.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[24júl.2020 10:28:43.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[24júl.2020 10:28:43.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[24júl.2020 10:28:44.230] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[24júl.2020 10:28:44.262] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[24júl.2020 10:28:46.072] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
