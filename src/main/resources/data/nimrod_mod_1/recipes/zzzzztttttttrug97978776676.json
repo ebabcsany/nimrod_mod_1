@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "nimrod_mod_1:plmk"
+    }
+  },
+  "result": {
+    "item": "nimrod_mod_1:zzzzztttttttrug97978776676",
+    "count": 1
+  }
+}

@@ -33,7 +33,7 @@ public class RuuuururezrzwrAttackGoal extends MeleeAttackGoal {
    public void tick() {
       super.tick();
       ++this.raiseArmTicks;
-      if (this.raiseArmTicks >= 5 && this.attackTick < 10) {
+      if (this.raiseArmTicks >= 5 && this.func_234041_j_() < this.func_234042_k_() / 2) {
          this.Ruuuururezrzwr.setAggroed(true);
       } else {
          this.Ruuuururezrzwr.setAggroed(false);

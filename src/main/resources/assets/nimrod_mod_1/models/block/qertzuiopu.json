@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "nimrod_mod_1:block/qertzuiopu_top",
+    "bottom": "nimrod_mod_1:block/qertzuiopu_bottom",
+    "side": "nimrod_mod_1:block/qertzuiopu_side"
+  }
+}

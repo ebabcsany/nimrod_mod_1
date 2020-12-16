@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " & ",
+    " & "
+  ],
+  "key": {
+    "#": {
+      "item": "nimrod_mod_1:object"
+    },
+    "&": {
+      "item": "nimrod_mod_1:emerald_stick"
+    }
+  },
+  "result": {
+    "item": "nimrod_mod_1:zrfjdoledfjh",
+    "count": 1
+  }
+}

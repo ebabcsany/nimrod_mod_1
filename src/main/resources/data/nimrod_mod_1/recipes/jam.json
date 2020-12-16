@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " & "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dirt"
+    },
+    "&": {
+      "item": "nimrod_mod_1:object"
+    }
+  },
+  "result": {
+    "item": "nimrod_mod_1:jam",
+    "count": 1
+  }
+}

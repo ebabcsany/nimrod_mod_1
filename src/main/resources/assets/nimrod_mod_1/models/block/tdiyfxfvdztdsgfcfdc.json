@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "nimrod_mod_1:block/fqgbaggagghahgzbzabh_top",
+    "bottom": "nimrod_mod_1:block/tgghdhgsgszuxdhfdgcn_bottom",
+    "side": "nimrod_mod_1:block/eadsfycigfdcavcy_side"
+  }
+}

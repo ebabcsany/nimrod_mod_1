@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #X",
+    "# X",
+    " #X"
+  ],
+  "key": {
+    "#": {
+      "item": "nimrod_mod_1:diamond_stick"
+    },
+    "X": {
+      "item": "ervin_mod_1:blue_string"
+    }
+  },
+  "result": {
+    "item": "nimrod_mod_1:diamond_bow"
+  }
+}

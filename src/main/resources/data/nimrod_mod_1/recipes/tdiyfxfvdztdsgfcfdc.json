@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "&&&",
+    "&#&",
+    "&&&"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:qertzuiopu"
+    },
+    "&": {
+      "item": "nimrod_mod_1:object"
+    }
+  },
+  "result": {
+    "item": "nimrod_mod_1:tdiyfxfvdztdsgfcfdc",
+    "count": 1
+  }
+}

@@ -1,18 +1,18 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="runClient" type="Application" factoryName="Application" singleton="true">
+  <configuration default="false" name="runClient" type="Application" factoryName="Application" singleton="false">
     <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../Program Files (x86)/Minecraft/runtime/jre-x64" />
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
     <envs>
       <env name="MOD_CLASSES" value="nimrod_mod_1%%$PROJECT_DIR$/../nimrod_mod_1\build\resources\main;nimrod_mod_1%%$PROJECT_DIR$/../nimrod_mod_1\build\classes\java\main" />
-      <env name="MCP_MAPPINGS" value="stable_60-1.15" />
-      <env name="MCP_VERSION" value="20200122.131323" />
-      <env name="FORGE_VERSION" value="31.1.9" />
-      <env name="assetIndex" value="1.15" />
+      <env name="MCP_MAPPINGS" value="snapshot_20200723-1.16.1" />
+      <env name="MCP_VERSION" value="20200625.160719" />
+      <env name="FORGE_VERSION" value="32.0.75" />
+      <env name="assetIndex" value="1.16" />
       <env name="assetDirectory" value="C:\Users\ervin_1nmnhvl\.gradle\caches\forge_gradle\assets" />
       <env name="nativesDirectory" value="$PROJECT_DIR$/../nimrod_mod_1\build\natives" />
       <env name="FORGE_GROUP" value="net.minecraftforge" />
       <env name="target" value="fmluserdevclient" />
-      <env name="MC_VERSION" value="1.15.2" />
+      <env name="MC_VERSION" value="1.16.1" />
     </envs>
     <option name="MAIN_CLASS_NAME" value="net.minecraftforge.userdev.LaunchTesting" />
     <module name="nimrod_mod_1.main" />

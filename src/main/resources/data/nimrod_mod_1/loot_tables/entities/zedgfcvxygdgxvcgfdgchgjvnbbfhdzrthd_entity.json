@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nimrod_mod_1:black_bedrock"
+        }
+      ]
+    },
+    {
+      "rolls": 200,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ervin_mod_1:leat"
+        }
+      ]
+    }
+  ]
+}

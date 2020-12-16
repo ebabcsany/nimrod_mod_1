@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "nimrod_mod_1:plmk"
+    }
+  },
+  "result": {
+    "item": "nimrod_mod_1:diamond_chestplate",
+    "count": 1
+  }
+}

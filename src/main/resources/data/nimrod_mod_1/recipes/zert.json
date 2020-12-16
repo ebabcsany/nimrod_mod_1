@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "&"
+  ],
+  "key": {
+    "#": {
+      "item": "nimrod_mod_1:object"
+    },
+    "&": {
+      "item": "nimrod_mod_1:emerald_stick_ore"
+    }
+  },
+  "result": {
+    "item": "nimrod_mod_1:zert",
+    "count": 1
+  }
+}

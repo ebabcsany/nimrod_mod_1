@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "nimrod_mod_1:black_bedrock"
+  },
+  "result": "nimrod_mod_1:object",
+  "experience": 100.0,
+  "cookingtime": 20000
+}

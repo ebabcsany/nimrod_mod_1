@@ -5,45 +5,53 @@ import com.babcsany.minecraft.nimrod_mod_1.init.ItemInit;
 import com.babcsany.minecraft.nimrod_mod_1.init.EntityInit;
 import com.babcsany.minecraft.nimrod_mod_1.init.ItemInit;
 import net.minecraft.entity.*;
-import net.minecraft.entity.ai.attributes.IAttribute;
-import net.minecraft.entity.ai.attributes.RangedAttribute;
+import net.minecraft.entity.ai.attributes.*;
 import net.minecraft.entity.ai.goal.*;
 import net.minecraft.entity.effect.LightningBoltEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.nbt.CompoundNBT;
+import net.minecraft.network.datasync.DataParameter;
+import net.minecraft.network.datasync.DataSerializers;
+import net.minecraft.network.datasync.EntityDataManager;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
+import java.util.UUID;
+
 public class Ruuuururezrzwr extends MonsterEntity {
     /**
      * The attribute which determines the chance that this mob will spawn reinforcements
      */
-    protected static final IAttribute SPAWN_REINFORCEMENTS_CHANCE = (new RangedAttribute((IAttribute) null, "zombie.spawnReinforcements", 0.0D, 0.0D, 1.0D)).setDescription("Spawn Reinforcements Chance");
-    //  private static final UUID BABY_SPEED_BOOST_ID = UUID.fromString("B9766B59-9566-4402-BC1F-2EE2A276D836");
-    //  private static final AttributeModifier BABY_SPEED_BOOST = new AttributeModifier(BABY_SPEED_BOOST_ID, "Baby speed boost", 0.5D, AttributeModifier.Operation.MULTIPLY_BASE);
+    private static final UUID BABY_SPEED_BOOST_ID = UUID.fromString("B9766B59-9566-4402-BC1F-2EE2A276D836");
+    private static final AttributeModifier BABY_SPEED_BOOST = new AttributeModifier(BABY_SPEED_BOOST_ID, "Baby speed boost", 0.5D, AttributeModifier.Operation.MULTIPLY_BASE);
+    private static final DataParameter<Boolean> IS_CHILD = EntityDataManager.createKey(Ruuuururezrzwr.class, DataSerializers.BOOLEAN);
 
     private EatGrassGoal eatGrassGoal;
     private int eatingGrassTimer;
 
-    public Ruuuururezrzwr(EntityType<Ruuuururezrzwr> entityType, World world) {
-        super(entityType, world);
+    public Ruuuururezrzwr(EntityType<? extends Ruuuururezrzwr> type, World worldIn) {
+        super(type, worldIn);
     }
 
     public Ruuuururezrzwr(World world) {
         super(EntityInit.RUUUURUREZRZWR.get(), world);
     }
 
-    public Ruuuururezrzwr createChild(AgeableEntity ageable) {
-        Ruuuururezrzwr entity = new Ruuuururezrzwr(this.world);
-        entity.onInitialSpawn(this.world, this.world.getDifficultyForLocation(new BlockPos(entity)),
-                SpawnReason.BREEDING, (ILivingEntityData) null, (CompoundNBT) null);
-        entity.setGlowing(true);
-        return entity;
+    public void setChild(boolean childRuuuururezrzwr) {
+        this.getDataManager().set(IS_CHILD, childRuuuururezrzwr);
+        if (this.world != null && !this.world.isRemote) {
+            ModifiableAttributeInstance modifiableattributeinstance = this.getAttribute(Attributes.MOVEMENT_SPEED);
+            modifiableattributeinstance.removeModifier(BABY_SPEED_BOOST);
+            if (childRuuuururezrzwr) {
+                modifiableattributeinstance.applyNonPersistentModifier(BABY_SPEED_BOOST);
+            }
+        }
+
     }
 
     @Override
@@ -52,7 +60,7 @@ public class Ruuuururezrzwr extends MonsterEntity {
         //this.goalSelector.addGoal(4, new Ruuuururezrzwr(1.0D, this, 3));
         this.goalSelector.addGoal(0, new SwimGoal(this));
         this.goalSelector.addGoal(8, new LookAtGoal(this, PlayerEntity.class, 8.0F));
-        new TemptGoal(this, 4.4D, Ingredient.fromItems(ItemInit.TETETRTTWFGEDRETETREDREDTERRFERRT.get()), false);
+           new TemptGoal(this, 4.4D, Ingredient.fromItems(ItemInit.TETETRTTWFGEDRETETREDREDTERRFERRT.get()), false);
         //this.goalSelector.addGoal(8, new
         this.goalSelector.addGoal(7, new LookAtGoal(this, PlayerEntity.class, 6.0F));
         this.goalSelector.addGoal(5, eatGrassGoal);
@@ -75,12 +83,8 @@ public class Ruuuururezrzwr extends MonsterEntity {
         super.livingTick();
     }
 
-    @Override
-    protected void registerAttributes() {
-        super.registerAttributes();
-        this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(160.0D);
-        this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.23D);
-        this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(20.0D);
+    public static AttributeModifierMap.MutableAttribute setCustomAttributes() {
+        return MonsterEntity.func_234295_eP_().createMutableAttribute(Attributes.MAX_HEALTH, 160.0D).createMutableAttribute(Attributes.MOVEMENT_SPEED, (double)0.23F).createMutableAttribute(Attributes.ATTACK_DAMAGE, 20.0D);
     }
 
     @OnlyIn(Dist.CLIENT)
