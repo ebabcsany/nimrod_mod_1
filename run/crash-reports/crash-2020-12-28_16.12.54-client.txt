@@ -1,0 +1,127 @@
+---- Minecraft Crash Report ----
+// There are four lights!
+
+Time: 2020.12.28. 16:12
+Description: Unexpected error
+
+java.lang.NullPointerException: Unexpected error
+	at net.minecraft.block.Block.isIn(Block.java:115) ~[forge-1.16.1-32.0.75_mapped_snapshot_20200723-1.16.1-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.block.AbstractBlock$AbstractBlockState.isIn(AbstractBlock.java:771) ~[forge-1.16.1-32.0.75_mapped_snapshot_20200723-1.16.1-recomp.jar:?] {re:classloading}
+	at com.babcsany.minecraft.nimrod_mod_1.Nimrod_mod_1$ForgeEvents.lambda$onLeftClickBlock$0(Nimrod_mod_1.java:155) ~[main/:?] {re:classloading}
+	at com.babcsany.minecraft.nimrod_mod_1.Nimrod_mod_1$ForgeEvents$$Lambda$5989/1415454731.test(Unknown Source) ~[?:?] {}
+	at net.minecraft.world.World.hasBlockState(World.java:1216) ~[forge-1.16.1-32.0.75_mapped_snapshot_20200723-1.16.1-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at com.babcsany.minecraft.nimrod_mod_1.Nimrod_mod_1$ForgeEvents.onLeftClickBlock(Nimrod_mod_1.java:153) ~[main/:?] {re:classloading}
+	at net.minecraftforge.eventbus.ASMEventHandler_2_ForgeEvents_onLeftClickBlock_LeftClickBlock.invoke(.dynamic) ~[?:?] {}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:80) ~[eventbus-2.2.0-service.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:258) ~[eventbus-2.2.0-service.jar:?] {}
+	at net.minecraftforge.common.ForgeHooks.onLeftClickBlock(ForgeHooks.java:765) ~[?:?] {re:classloading}
+	at net.minecraft.client.multiplayer.PlayerController.clickBlock(PlayerController.java:143) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.clickMouse(Minecraft.java:1323) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.processKeyBinds(Minecraft.java:1640) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1481) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:954) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:587) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) [?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51] {}
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51] {}
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) [forge-1.16.1-32.0.75_mapped_snapshot_20200723-1.16.1-recomp.jar:?] {}
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider$$Lambda$434/2081269248.call(Unknown Source) [forge-1.16.1-32.0.75_mapped_snapshot_20200723-1.16.1-recomp.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.1.2.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.1.2.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.1.2.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.2.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.2.jar:?] {}
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.75_mapped_snapshot_20200723-1.16.1-recomp.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.minecraft.block.Block.isIn(Block.java:115)
+	at net.minecraft.block.AbstractBlock$AbstractBlockState.isIn(AbstractBlock.java:771)
+	at com.babcsany.minecraft.nimrod_mod_1.Nimrod_mod_1$ForgeEvents.lambda$onLeftClickBlock$0(Nimrod_mod_1.java:155)
+	at com.babcsany.minecraft.nimrod_mod_1.Nimrod_mod_1$ForgeEvents$$Lambda$5989/1415454731.test(Unknown Source)
+	at net.minecraft.world.World.hasBlockState(World.java:1216)
+	at com.babcsany.minecraft.nimrod_mod_1.Nimrod_mod_1$ForgeEvents.onLeftClickBlock(Nimrod_mod_1.java:153)
+	at net.minecraftforge.eventbus.ASMEventHandler_2_ForgeEvents_onLeftClickBlock_LeftClickBlock.invoke(.dynamic)
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:80)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
+	at net.minecraftforge.common.ForgeHooks.onLeftClickBlock(ForgeHooks.java:765)
+	at net.minecraft.client.multiplayer.PlayerController.clickBlock(PlayerController.java:143)
+	at net.minecraft.client.Minecraft.clickMouse(Minecraft.java:1323)
+	at net.minecraft.client.Minecraft.processKeyBinds(Minecraft.java:1640)
+
+-- Affected level --
+Details:
+	All players: 1 total; [ClientPlayerEntity['Dev'/153, l='ClientLevel', x=232.50, y=82.00, z=54.50]]
+	Chunk stats: Client Chunk Cache: 441, 289
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (224,83,64), Chunk: (at 0,5,0 in 14,4; contains blocks 224,0,64 to 239,255,79), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 1862 game time, 1862 day time
+	Server brand: forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.world.ClientWorld.fillCrashReport(ClientWorld.java:463)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2035)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:608)
+	at net.minecraft.client.main.Main.main(Main.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55)
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider$$Lambda$434/2081269248.call(Unknown Source)
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81)
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65)
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.1
+	Minecraft Version ID: 1.16.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 305132184 bytes (290 MB) / 1004535808 bytes (958 MB) up to 1883242496 bytes (1796 MB)
+	CPUs: 4
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	ModLauncher: 5.1.2+70+master.2845bb9
+	ModLauncher launch target: fmluserdevclient
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		/mixin-0.8.jar mixin PLUGINSERVICE 
+		/eventbus-2.2.0-service.jar eventbus PLUGINSERVICE 
+		/forge-1.16.1-32.0.75_mapped_snapshot_20200723-1.16.1-launcher.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.16.1-32.0.75_mapped_snapshot_20200723-1.16.1-launcher.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-2.1.3-shadowed.jar accesstransformer PLUGINSERVICE 
+		/forge-1.16.1-32.0.75_mapped_snapshot_20200723-1.16.1-launcher.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.16.1-32.0.75_mapped_snapshot_20200723-1.16.1-launcher.jar runtimedistcleaner PLUGINSERVICE 
+		/mixin-0.8.jar mixin TRANSFORMATIONSERVICE 
+		/forge-1.16.1-32.0.75_mapped_snapshot_20200723-1.16.1-launcher.jar fml TRANSFORMATIONSERVICE 
+	FML: 32.0
+	Forge: net.minecraftforge:32.0.75
+	FML Language Providers: 
+		javafml@32.0
+		minecraft@1
+	Mod List: 
+		client-extra.jar Minecraft {minecraft@1.16.1 DONE}
+		forge-1.16.1-32.0.75_mapped_snapshot_20200723-1.16.1-recomp.jar Forge {forge@32.0.75 DONE}
+		main Nimrod_mod_1 {nimrod_mod_1@NONE DONE}
+	Launched Version: MOD_DEV
+	Backend library: LWJGL version 3.2.2 build 10
+	Backend API: Intel(R) HD Graphics 3000 GL version 3.1.0 - Build 9.17.10.4459, Intel
+	GL Caps: Using framebuffer using OpenGL 3.0
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	CPU: 4x Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz

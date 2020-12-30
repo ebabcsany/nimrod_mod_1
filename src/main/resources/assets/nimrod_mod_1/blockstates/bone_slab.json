@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "nimrod_mod_1:block/bone_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/bone_block"
+    },
+    "type=top": {
+      "model": "nimrod_mod_1:block/bone_slab_top"
+    }
+  }
+}

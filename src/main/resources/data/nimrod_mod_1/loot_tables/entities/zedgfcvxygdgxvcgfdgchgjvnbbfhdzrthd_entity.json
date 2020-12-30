@@ -7,6 +7,10 @@
         {
           "type": "minecraft:item",
           "name": "nimrod_mod_1:black_bedrock"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nimrod_mod_1:spawn_eggs/ieurjjfjuijjfuhujrijfuhfjzufhzuhuhzdjhjuhugugzfgzzzrhdgugugzrz7rzzzezdhzgeugfdjhguezzrghd_spawn_egg"
         }
       ]
     },
@@ -16,6 +20,10 @@
         {
           "type": "minecraft:item",
           "name": "ervin_mod_1:leat"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nimrod_mod_1:tetetrttwfgedretetredredterrferrt"
         }
       ]
     }

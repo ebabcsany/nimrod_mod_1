@@ -1,8 +1,12 @@
 package com.babcsany.minecraft.nimrod_mod_1;
 
-import com.babcsany.minecraft.nimrod_mod_1.entity.QERTZUIOPUEntity;
+import com.babcsany.minecraft.nimrod_mod_1.entity.QwertrtttEntity;
+import com.babcsany.minecraft.nimrod_mod_1.entity.Snow1ManEntity;
+import com.babcsany.minecraft.nimrod_mod_1.entity.SrachEntity;
 import com.babcsany.minecraft.nimrod_mod_1.entity.monster.Ruuuururezrzwr;
 import com.babcsany.minecraft.nimrod_mod_1.entity.monster.ZedgfcvxygdgxvcgfdgchgjvnbbfhdzrthdEntity;
+import com.babcsany.minecraft.nimrod_mod_1.entity.monster.Zuhdgdgtdfgtefhdfhffzdkfdjfshd21234hxjifdedkfsdiferdmsfgxxjcdfzjfrduufjdsfbrjrthrcfgtgejfdjfhf;
+import com.babcsany.minecraft.nimrod_mod_1.entity.villager.Ieurjjfjuijjfuhujrijfuhfjzufhzuhuhzdjhjuhugugzfgzzzrhdgugugzrz7rzzzezdhzgeugfdjhguezzrghdEntity;
 import com.babcsany.minecraft.nimrod_mod_1.init.*;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -15,7 +19,6 @@ import net.minecraft.item.crafting.IRecipeSerializer;
 import net.minecraft.item.crafting.ShapedRecipe;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ITag;
-import net.minecraft.tags.Tag;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
@@ -37,9 +40,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.stream.Collectors;
-
-import static com.babcsany.minecraft.nimrod_mod_1.Nimrod_mod_1.MOD_ID;
-import static com.babcsany.minecraft.nimrod_mod_1.init.ItemInit.*;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Nimrod_mod_1.MOD_ID)
@@ -68,6 +68,7 @@ public class Nimrod_mod_1 {
         BlockInit.BLOCKS.register(modEventBus);
         BiomeInit.BIOMES.register(modEventBus);
         EntityInit.ENTITY_TYPES.register(modEventBus);
+        ContainerInit.CONTAINER_TYPES.register(modEventBus);
     }
 
     private void setup(final FMLCommonSetupEvent event) {
@@ -77,7 +78,11 @@ public class Nimrod_mod_1 {
         DeferredWorkQueue.runLater(() -> {
             GlobalEntityTypeAttributes.put(EntityInit.RUUUURUREZRZWR.get(), Ruuuururezrzwr.setCustomAttributes().create());
             GlobalEntityTypeAttributes.put(EntityInit.ZEDGFCVXYGDGXVCGFDGCHGJVNBBFHDZRTHD_ENTITY.get(), ZedgfcvxygdgxvcgfdgchgjvnbbfhdzrthdEntity.setCustomAttributes().create());
-            GlobalEntityTypeAttributes.put(EntityInit.ZEDGFCVXYGDGXVCGFDGCHGJVNBBFHDZRTHD_ENTITY.get(), ZedgfcvxygdgxvcgfdgchgjvnbbfhdzrthdEntity.setCustomAttributes().create());
+            GlobalEntityTypeAttributes.put(EntityInit.ZUHDGdgtdfgtefhdfhffzdkfdjfshd21234hxjifdedkfsdiferdmsfgxxjcdfzjfrduufjdsfbrjrthrcfgtgejfdjfhf.get(), Zuhdgdgtdfgtefhdfhffzdkfdjfshd21234hxjifdedkfsdiferdmsfgxxjcdfzjfrduufjdsfbrjrthrcfgtgejfdjfhf.setCustomAttributes().create());
+            GlobalEntityTypeAttributes.put(EntityInit.SNOW_MAN_ENTITY.get(), Snow1ManEntity.setCustomAttributes().create());
+            GlobalEntityTypeAttributes.put(EntityInit.IEURJJFJUIJJFUHUJRIJFUHFJZUFHZUHUHZDJHJUHUGUGZFGZZZRHDGUGUGZRZ7RZZZEZDHZGEUGFDJHGUEZZRGHD_ENTITY.get(), Ieurjjfjuijjfuhujrijfuhfjzufhzuhuhzdjhjuhugugzfgzzzrhdgugugzrz7rzzzezdhzgeugfdjhguezzrghdEntity.setCustomAttributes().create());
+            GlobalEntityTypeAttributes.put(EntityInit.QWERTRTTT.get(), QwertrtttEntity.registerAttributes().create());
+            GlobalEntityTypeAttributes.put(EntityInit.SRACH_ENTITY.get(), SrachEntity.registerAttributes().create());
         });
     }
 

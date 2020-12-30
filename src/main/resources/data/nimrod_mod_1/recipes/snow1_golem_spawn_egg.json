@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ervin_mod_1:snow_golem_spawn_egg"
+    },
+    {
+      "item": "nimrod_mod_1:tetetrttwfgedretetredredterrferrt"
+    }
+  ],
+  "result": {
+    "item": "nimrod_mod_1:snow1_golem_spawn_egg",
+    "count": 1
+  }
+}

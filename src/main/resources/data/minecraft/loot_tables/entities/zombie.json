@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "ervin_mod_1:zombie_trader_spawn_egg"
+          "name": "ervin_mod_1:spawn_eggs/zombie_trader_spawn_egg"
         }
       ],
       "conditions": [
@@ -84,6 +84,10 @@
         {
           "type": "minecraft:item",
           "name": "ervin_mod_1:iron_ingots/light_blue_iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ervin_mod_1:iron_ingots/light_blue1_iron_ingot"
         },
         {
           "type": "minecraft:item",

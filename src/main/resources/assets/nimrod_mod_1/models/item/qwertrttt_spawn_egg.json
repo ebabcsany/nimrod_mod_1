@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "nimrod_mod_1:item/spawn_eggs/qwertrttt_spawn_egg"
+  }
+}

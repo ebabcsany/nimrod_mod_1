@@ -1,10 +1,8 @@
 package com.babcsany.minecraft.nimrod_mod_1.entity.monster;
 
 import com.babcsany.minecraft.nimrod_mod_1.entity.ai.goal.ZedgfcvxygdgxvcgfdgchgjvnbbfhdzrthdSwellGoal;
-import net.minecraft.entity.AreaEffectCloudEntity;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityType;
-import net.minecraft.entity.IChargeableMob;
+import com.babcsany.minecraft.nimrod_mod_1.init.EntityInit;
+import net.minecraft.entity.*;
 import net.minecraft.entity.ai.attributes.AttributeModifierMap;
 import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.ai.goal.*;
@@ -256,6 +254,10 @@ public class ZedgfcvxygdgxvcgfdgchgjvnbbfhdzrthdEntity extends MonsterEntity imp
          this.world.addEntity(areaeffectcloudentity);
       }
 
+   }
+
+   public ZedgfcvxygdgxvcgfdgchgjvnbbfhdzrthdEntity createChild(AgeableEntity ageable) {
+      return EntityInit.ZEDGFCVXYGDGXVCGFDGCHGJVNBBFHDZRTHD_ENTITY.get().create(this.world);
    }
 
    public boolean hasIgnited() {

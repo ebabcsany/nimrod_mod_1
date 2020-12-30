@@ -78,4 +78,16 @@ public class BlockInit {
                     .zeroHardnessAndResistance()
                     .sound(SoundType.PLANT)
     ));
+    public static final RegistryObject<Block> BONE_SLAB = BLOCKS.register("bone_slab", () -> new BoneSlab(
+            Block.Properties.create(Material.ROCK, MaterialColor.STONE)
+                    .setRequiresTool()
+                    .harvestLevel(1)
+                    .hardnessAndResistance(1.5F, 6.0F)
+    ));
+    public static final RegistryObject<Block> CRAFTING_BLOCK = BLOCKS.register("crafting_block", () -> new CraftingBlock(
+            Block.Properties.create(Material.ROCK, MaterialColor.STONE)
+                    .setRequiresTool()
+                    .harvestLevel(1)
+                    .hardnessAndResistance(1.5F, 6.0F)
+    ));
 }

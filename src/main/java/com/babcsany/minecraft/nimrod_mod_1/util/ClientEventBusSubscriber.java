@@ -21,7 +21,10 @@ public class ClientEventBusSubscriber {
         RenderingRegistry.registerEntityRenderingHandler(EntityInit.ZUHDGdgtdfgtefhdfhffzdkfdjfshd21234hxjifdedkfsdiferdmsfgxxjcdfzjfrduufjdsfbrjrthrcfgtgejfdjfhf.get(), Zuhdgdgtdfgtefhdfhffzdkfdjfshd21234hxjifdedkfsdiferdmsfgxxjcdfzjfrduufjdsfbrjrthrcfgtgejfdjfhfRender::new);
         RenderingRegistry.registerEntityRenderingHandler(EntityInit.QERTZUIOPU_ENTITY.get(), QERTZUIOPURender::new);
         RenderingRegistry.registerEntityRenderingHandler(EntityInit.TDIYFXFVDZTDSGFCFDC_ENTITY.get(), TDIYFXFVDZTDSGFCFDCRender::new);
-        //RenderingRegistry.registerEntityRenderingHandler(EntityInit.FREIN_ENTITY.get(), FreinEntityRender::new);
+        RenderingRegistry.registerEntityRenderingHandler(EntityInit.SNOW_MAN_ENTITY.get(), Snow1ManRender::new);
+        RenderingRegistry.registerEntityRenderingHandler(EntityInit.IEURJJFJUIJJFUHUJRIJFUHFJZUFHZUHUHZDJHJUHUGUGZFGZZZRHDGUGUGZRZ7RZZZEZDHZGEUGFDJHGUEZZRGHD_ENTITY.get(), Ieurjjfjuijjfuhujrijfuhfjzufhzuhuhzdjhjuhugugzfgzzzrhdgugugzrz7rzzzezdhzgeugfdjhguezzrghdRender::new);
+        //RenderingRegistry.registerEntityRenderingHandler(EntityInit.QWERTRTTT.get(), QwertrtttRender::new);
+        RenderingRegistry.registerEntityRenderingHandler(EntityInit.SRACH_ENTITY.get(), SrachRender::new);
         // Register ContainerType Screens
         // ScreenManager.registerFactory is not safe to call during parallel mod loading so we queue it to run later
         //DeferredWorkQueue.runLater(() -> {

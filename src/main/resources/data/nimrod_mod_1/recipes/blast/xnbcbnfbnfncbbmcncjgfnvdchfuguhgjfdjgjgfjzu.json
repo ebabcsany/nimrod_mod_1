@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "nimrod_mod_1:971237gzgdughdgjghrhddhddhcvjge"
+  },
+  "result": "nimrod_mod_1:xnbcbnfbnfncbbmcncjgfnvdchfuguhgjfdjgjgfjzu",
+  "experience": 100.0,
+  "cookingtime": 2000
+}

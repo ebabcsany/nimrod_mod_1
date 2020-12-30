@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "###",
     "####",
-    "####",
+    "&&&&",
+    "CCCC",
     "####"
   ],
   "key": {
     "#": {
-      "item": "nimrod_mod_1:plmk"
+      "item": "nimrod_mod_1:slice_of_bread"
     },
     "&": {
-      "item": "minecraft:plmk"
+      "item": "minecraft:beetroot"
     },
     "C": {
-      "item": "nimrod_mod_1:plmk"
+      "item": "nimrod_mod_1:sajt"
     }
   },
   "result": {

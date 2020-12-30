@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "####",
+    "#&&#",
+    "#&&#",
+    "####"
+  ],
+  "key": {
+    "#": {
+      "tag": "nimrod_mod_1:ingredients/ore"
+    },
+    "&": {
+      "item": "nimrod_mod_1:minecart"
+    }
+  },
+  "result": {
+    "item": "nimrod_mod_1:ak",
+    "count": 1
+  }
+}

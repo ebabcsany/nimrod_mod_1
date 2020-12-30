@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/run/saves/New World (2)/session.lock" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/babcsany/minecraft/nimrod_mod_1/client/entity/model/GhzjtvzhzvModel.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/babcsany/minecraft/nimrod_mod_1/client/entity/render/Ieurjjfjuijjfuhujrijfuhfjzufhzuhuhzdjhjuhugugzfgzzzrhdgugugzrz7rzzzezdhzgeugfdjhguezzrghdRender.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/babcsany/minecraft/nimrod_mod_1/entity/AbstractSnow1GolemEntity.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/babcsany/minecraft/nimrod_mod_1/entity/CriteriaTriggers1.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/babcsany/minecraft/nimrod_mod_1/entity/GhzjtvzhzvTradeTrigger.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/babcsany/minecraft/nimrod_mod_1/entity/Ieurjjfjuijjfuhujrijfuhfjzufhzuhuhzdjhjuhugugzfgzzzrhdgugugzrz7rzzzezdhzgeugfdjhguezzrghdTradeTrigger.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/babcsany/minecraft/nimrod_mod_1/entity/Ieurjjfjuijjfuhujrijfuhfjzufhzuhuhzdjhjuhugugzfgzzzrhdgugugzrz7rzzzezdhzgeugfdjhguezzrghdTrigger.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/babcsany/minecraft/nimrod_mod_1/entity/ai/goal/Ieurjjfjuijjfuhujrijfuhfjzufhzuhuhzdjhjuhugugzfgzzzrhdgugugzrz7rzzzezdhzgeugfdjhguezzrghdLookAtCustomerGoal.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/babcsany/minecraft/nimrod_mod_1/entity/ai/goal/Ieurjjfjuijjfuhujrijfuhfjzufhzuhuhzdjhjuhugugzfgzzzrhdgugugzrz7rzzzezdhzgeugfdjhguezzrghdTradeWithPlayerGoal.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/babcsany/minecraft/nimrod_mod_1/entity/ai/goal/Snow1GolemLookAtCustomerGoal.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/babcsany/minecraft/nimrod_mod_1/entity/ai/goal/Snow1GolemTradeWithPlayerGoal.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/babcsany/minecraft/nimrod_mod_1/entity/villager/AbstractGhzjtvzhzvEntity.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/babcsany/minecraft/nimrod_mod_1/entity/villager/AbstractIeurjjfjuijjfuhujrijfuhfjzufhzuhuhzdjhjuhugugzfgzzzrhdgugugzrz7rzzzezdhzgeugfdjhguezzrghdEntity.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/babcsany/minecraft/nimrod_mod_1/entity/villager/Ieurjjfjuijjfuhujrijfuhfjzufhzuhuhzdjhjuhugugzfgzzzrhdgugugzrz7rzzzezdhzgeugfdjhguezzrghdEntity.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/babcsany/minecraft/nimrod_mod_1/entity/villager/Ieurjjfjuijjfuhujrijfuhfjzufhzuhuhzdjhjuhugugzfgzzzrhdgugugzrz7rzzzezdhzgeugfdjhguezzrghdTrades.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/babcsany/minecraft/nimrod_mod_1/entity/villager/Snow1GolemTrades.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/babcsany/minecraft/nimrod_mod_1/entity/villager/Snow1GolemTrigger.java" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/babcsany/minecraft/nimrod_mod_1/item/ZdgxhshBucketItem.java" charset="windows-1250" />
+  </component>
+</project>

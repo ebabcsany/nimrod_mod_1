@@ -1,6 +1,6 @@
 {
-  "parent": "nimrod_mod_1:item/template_spawn_egg",
+  "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nimrod_mod_1:item/ruuuururezrzwr_spawn_egg"
+    "layer0": "nimrod_mod_1:item/spawn_eggs/ruuuururezrzwr_spawn_egg"
   }
 }

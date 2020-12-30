@@ -2,6 +2,7 @@ package com.babcsany.minecraft.nimrod_mod_1.entity.monster;
 
 import com.babcsany.minecraft.nimrod_mod_1.init.EntityInit;
 import com.babcsany.minecraft.nimrod_mod_1.init.ItemInit;
+import net.minecraft.entity.AgeableEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.ai.attributes.AttributeModifierMap;
@@ -38,7 +39,7 @@ public class Zuhdgdgtdfgtefhdfhffzdkfdjfshd21234hxjifdedkfsdiferdmsfgxxjcdfzjfrd
     }
 
     public Zuhdgdgtdfgtefhdfhffzdkfdjfshd21234hxjifdedkfsdiferdmsfgxxjcdfzjfrduufjdsfbrjrthrcfgtgejfdjfhf(World world) {
-        super(EntityInit.RUUUURUREZRZWR.get(), world);
+        super(EntityInit.ZUHDGdgtdfgtefhdfhffzdkfdjfshd21234hxjifdedkfsdiferdmsfgxxjcdfzjfrduufjdsfbrjrthrcfgtgejfdjfhf.get(), world);
     }
 
     public void setChild(boolean childRuuuururezrzwr) {
@@ -94,6 +95,10 @@ public class Zuhdgdgtdfgtefhdfhffzdkfdjfshd21234hxjifdedkfsdiferdmsfgxxjcdfzjfrd
             super.handleStatusUpdate(id);
         }
 
+    }
+
+    public Zuhdgdgtdfgtefhdfhffzdkfdjfshd21234hxjifdedkfsdiferdmsfgxxjcdfzjfrduufjdsfbrjrthrcfgtgejfdjfhf createChild(AgeableEntity ageable) {
+        return EntityInit.ZUHDGdgtdfgtefhdfhffzdkfdjfshd21234hxjifdedkfsdiferdmsfgxxjcdfzjfrduufjdsfbrjrthrcfgtgejfdjfhf.get().create(this.world);
     }
 
     @OnlyIn(Dist.CLIENT)

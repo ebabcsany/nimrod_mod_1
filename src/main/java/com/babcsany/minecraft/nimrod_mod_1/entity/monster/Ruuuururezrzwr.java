@@ -2,8 +2,6 @@ package com.babcsany.minecraft.nimrod_mod_1.entity.monster;
 
 import com.babcsany.minecraft.nimrod_mod_1.init.EntityInit;
 import com.babcsany.minecraft.nimrod_mod_1.init.ItemInit;
-import com.babcsany.minecraft.nimrod_mod_1.init.EntityInit;
-import com.babcsany.minecraft.nimrod_mod_1.init.ItemInit;
 import net.minecraft.entity.*;
 import net.minecraft.entity.ai.attributes.*;
 import net.minecraft.entity.ai.goal.*;
@@ -11,11 +9,9 @@ import net.minecraft.entity.effect.LightningBoltEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.network.datasync.DataParameter;
 import net.minecraft.network.datasync.DataSerializers;
 import net.minecraft.network.datasync.EntityDataManager;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
 import net.minecraftforge.api.distmarker.Dist;
@@ -95,6 +91,10 @@ public class Ruuuururezrzwr extends MonsterEntity {
             super.handleStatusUpdate(id);
         }
 
+    }
+
+    public Ruuuururezrzwr createChild(AgeableEntity ageable) {
+        return EntityInit.RUUUURUREZRZWR.get().create(this.world);
     }
 
     @OnlyIn(Dist.CLIENT)

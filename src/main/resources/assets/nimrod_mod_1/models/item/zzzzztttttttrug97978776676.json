@@ -1,5 +1,5 @@
 {
-  "parent": "item/handheld",
+  "parent": "item/generated",
   "textures": {
     "layer0": "nimrod_mod_1:item/zzzzztttttttrug97978776676"
   }
